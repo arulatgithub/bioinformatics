@@ -1,0 +1,33 @@
+def reverse_me(stng):
+    return stng[::-1]
+
+def lambda_fun(one,two):
+     combine= lambda x,y : x+y
+     return combine (one,two)
+
+def ol_fun(*one ):
+    print ( one)
+    return ''
+"""
+def ol_fun(one,two ):
+    print(one,two)
+    
+def ol_fun  (one,two,three):
+    print(one,two,three)
+"""
+
+
+def main():
+    #print (reverse_me("myself"))
+    print ((lambda_fun('Arul ', 'Narayanan ')))
+    print ((lambda_fun(6,5)))
+    print ((lambda_fun(6.1,5.3)))
+
+    print (ol_fun(1))
+    print (ol_fun(1,2))
+    print (ol_fun(1,2,3))
+    
+    input("Press Enter to continue...")
+
+if __name__ == "__main__":
+    main()
